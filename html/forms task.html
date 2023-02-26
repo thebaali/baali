@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body{  background-image: url(../images/bg055555454465.jpg);}
+    .alias {cursor: alias;}
+    table,
+    th,
+    td  {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+      
+        /* background-color: rgb(255, 255, 255); */
+        
+    }
+
+    div {
+        padding: 70 0px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    /* body{background-color: black;} */
+</style>
+
+
+<body>
+    <div>
+        <form action="form task next redirect.html">
+        <table border="1">
+            <!-- name -->
+            <tr>
+                <th>
+                    <p > Name <span style="color: red;">*</span></p>
+                </th>
+                <td>
+                    <p>Firstname <input type="text" required title="Your First Name"/>
+                </td>
+                <td>
+                    Lastname <input type="text" required title="Your last Name"/>
+                </td>
+            </tr>
+            <!-- email -->
+            <tr>
+                <th>
+                    <p>Email  <span style="color: red;">*</span></p>
+                </th>
+                <td colspan="2" align="center"><input type="email" required title="email id" /></td>
+            </tr>
+            <!-- dob -->
+            <tr>
+                <th>
+                    <p>DOB  <span style="color: red;">*</span></p>
+                </th>
+                <td colspan="2" align="center">
+                    <input type="date" required  title="date of birth"/>
+                </td>
+            </tr>
+            <!-- Gender -->
+            <tr>
+                <th>
+                    <p>Gender  <span style="color: red;">*</span> </p>
+                </th>
+                <td colspan="2" align="center"><input type="radio" name="gender" required> <label
+                        for="gender">Male</label>
+                    <input type="radio" name="gender" required><label for="gender">Female</label>
+                </td>
+            </tr>
+            
+
+
+
+
+
+
+
+            <!-- Select State -->
+            <tr>
+                <th>
+                    <p>Select State  <span style="color: red;">*</span></p>
+                </th>
+                <td colspan="2" align="center" title="your state"><select>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="GA">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="GA">Goa</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="WB">West Bengal</option>
+                        <option value="AN">Andaman and Nicobar Islands</option>
+                        <option value="CH">Chandigarh</option>
+                        <option value="DN">Dadra and Nagar Haveli</option>
+                        <option value="DD">Daman and Diu</option>
+                        <option value="DL">Delhi</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="PY">Puducherry</option>
+                    </select></td>
+            </tr>
+            <tr>
+
+                <td colspan="3s" align="center"><input type="reset" /> <button title="click here to next page">Next</button> </td>
+            </tr>
+        </table>
+         
+    </form>
+    </div>
+    <span style="color: red;">*</span><span>required fields</span>
+</body>
+
+</html>

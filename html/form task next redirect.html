@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <style>
+         body{  background-image: url(../images/bg055555454465.jpg);}
+        table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    div {
+        padding: 70 0px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    /* body{background-color: black;} */
+    </style>
+
+<body>
+    <div>
+        <form action="submit.html">
+            <table border="1">
+
+                <!--mobile number-->
+                <tr>
+                    <th>
+                        <p>Mobile number<span style="color: red;">*</span></p>
+                    </th>
+                    <td colspan="2" align="center"><input type="number" required title="enter mobile number" /></td>
+                </tr>
+                <!--address-->
+                <tr>
+                    <th>address</th>
+                    <td> <textarea rows="4" title="perment address"></textarea> </td>
+                </tr>
+                <!-- languages -->
+                <tr>
+                    <th>
+                        <p>languages</p>
+                    </th>
+                    <td>
+                        <input type="checkbox" /><label>Tamil</label>
+                        <input type="checkbox" /><label>English</label>
+                        <input type="checkbox" /><label>Telugu</label><br>
+                        <input type="checkbox" /><label>Hindi</label>
+                        <input type="checkbox" /><label>Malayalam</label>
+                        <input type="checkbox" /><label>Kannada</label>
+                    </td>
+                <tr>
+                    <!-- upload -->
+                    <th>
+                        Upload<span style="color: red;">*</span>
+                    </th>
+                    <td colspan="2" align="center"><input type="file" required /></td>
+                </tr>
+                </tr>
+
+
+                <tr>
+
+                    <td colspan="3s" align="center"><input type="reset" /> <button title="click here to submit">submit</button> </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+    <span style="color: red;">*</span><span>required fields</span>
+</body>
+
+</html>
